@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar bg-info fixed-top p-2">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">Diry Shop</a>
+        <a href="Login.html" class="btn btn-primary ms-auto mx-2" style="font-size: 20px"
+          ><i class="bx bx-user-circle"></i
+        ></a>
+        <a href="keranjang.html" style="font-size: 25px" class="mx-4"
+          ><i class="bx bx-cart"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Diry Shop</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pengaturan</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- last navbar -->
+    <!-- caraussel -->
+    <div class="container pt-5">
+        <div class="container py-5">
+            <div id="carouselExampleIndicators" class="carousel slide col-lg-8 offset-lg-2" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/e-commerce-jadi-andalan-utama-berjualan-siapa-juaranya.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gm2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gm3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+    </div> <hr>
+    <!-- caraussel last -->
+    <!-- Categori Product -->
+    <div class="container pt-3">
+        <h4 class="btn btn-info p-2 fw-bold text-light">Categori Product</h4>
+
+        <div class="container text-center">
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+              <div class="col">  <a href=""><img src="img categori/kisspng-smart-tv-led-backlit-lcd-high-definition-televisio-ramadan-sale-5b3aea6634c599.1582699515305877502162-removebg-preview.png" alt="" style="width: 170px; height: auto; border-radius: 50%;" class="pt-5"></a>
+                <div class="p-3 pt-4">Elektronik</div>
+              </div>
+              <div class="col"> <a href=""><img src="img categori/pngtree-sepatu-yellow-shoes-sneakers-icon-vector-png-image_4478698-removebg-preview (1).png" alt="" style="width: 150px; height: auto; border-radius: 50%;" class="pt-4"></a>
+                <div class="">Fahion</div>
+              </div>
+              <div class="col"> <a href=""><img src="img categori/download-removebg-preview.png" alt="" style="width: 145px; height: auto; border-radius: 50px;" class="pt-5"></a>
+                <div class="pt-4">Food</div>
+              </div>
+              <div class="col"> <img src="img categori/1920.png_860-removebg-preview.png" alt=""  style="width: 150px; height: auto;" class="pt-2">
+                <div class="p-3">Kecantikan</div>
+              </div>
+              <div class="col"> <img src="img categori/pngtree-top-up-add-your-money-balance-vector-illustration-on-mobile-phone-png-image_6025976-removebg-preview.png" alt=""  style="width: 155px; height: auto; border-radius: 50px;" class="pt-5">
+                <div class="p-3">Top Up All</div>
+              </div>
+        </div>
+    </div> <hr>
+    <!-- categori -->
+    <!-- All -->
+    <div class="container-fluid py-5">
+        <h2 class="text-center">ALL PRODUCT</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                
+                <div class="card-body">
+                    <img src="all product/download.jpeg" class="card-img-top mx-auto p-3" alt="..." style="width: 220px; height: auto;">
+                  <hr>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"><i class='bx bx-package'></i>
+                    <span>Stock 9</span> <br>
+                    <i class='bx bx-table'></i>
+                    <span>Laptop</span>
+                  </p>
+                  <hr>
+                  <a href="#" class="btn btn-outline-success  bx bx-cart"></i></a> <br> <br>
+                  <a href="#" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="all product/download.jpeg" class="card-img-top mx-auto p-3" alt="..." style="width: 220px; height: auto;">
+                <div class="card-body">
+                  <hr>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"><i class='bx bx-package'></i>
+                    <span>Stock 9</span> <br>
+                    <i class='bx bx-table'></i>
+                    <span>Laptop</span>
+                  </p>
+                  <hr>
+                  <a href="#" class="btn btn-outline-success  bx bx-cart"></i></a> <br> <br>
+                  <a href="#" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="all product/images-3-4.jpeg" class="card-img-top mx-auto p-3" alt="..." style="width: 220px; height: auto;" >
+                <div class="card-body">
+                  <hr>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"><i class='bx bx-package'></i>
+                    <span>Stock 9</span> <br>
+                    <i class='bx bx-table'></i>
+                    <span>Laptop</span>
+                  </p>
+                  <hr>
+                  <a href="#" class="btn btn-outline-success  bx bx-cart"></i></a> <br> <br>
+                  <a href="#" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="all product/images-3-4.jpeg" class="card-img-top mx-auto p-3" alt="..." style="width: 220px; height: auto;" >
+                <div class="card-body">
+                  <hr>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"><i class='bx bx-package'></i>
+                    <span>Stock 9</span> <br>
+                    <i class='bx bx-table'></i>
+                    <span>Laptop</span>
+                  </p>
+                  <hr>
+                  <a href="#" class="btn btn-outline-success  bx bx-cart"></i></a> <br> <br>
+                  <a href="#" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+            <!-- ke2 -->
+            <div class="pt-4">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                          <img src="all product/images-3-4.jpeg" class="card-img-top mx-auto p-3" alt="..." style="width: 220px; height: auto;" >
+                          <div class="card-body">
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text"><i class='bx bx-package'></i>
+                              <span>Stock 9</span> <br>
+                              <i class='bx bx-table'></i>
+                              <span>Laptop</span>
+                            </p>
+                            <hr>
+                            <a href="#" class="btn btn-outline-success  bx bx-cart"></i></a> <br> <br>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                          <img src="all product/download.jpeg" class="card-img-top mx-auto p-3" alt="..." style="width: 220px; height: auto;">
+                          <div class="card-body">
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text"><i class='bx bx-package'></i>
+                              <span>Stock 9</span> <br>
+                              <i class='bx bx-table'></i>
+                              <span>Laptop</span>
+                            </p>
+                            <hr>
+                            <a href="#" class="btn btn-outline-success  bx bx-cart"></i></a> <br> <br>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                          <img src="all product/download.jpeg" class="card-img-top mx-auto p-3" alt="..." style="width: 220px; height: auto;">
+                          <div class="card-body">
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text"><i class='bx bx-package'></i>
+                              <span>Stock 9</span> <br>
+                              <i class='bx bx-table'></i>
+                              <span>Laptop</span>
+                            </p>
+                            <hr>
+                            <a href="#" class="btn btn-outline-success  bx bx-cart"></i></a> <br> <br>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card">
+                          <img src="all product/images-3-4.jpeg" class="card-img-top mx-auto p-3" alt="..." style="width: 220px; height: auto;" >
+                          <div class="card-body">
+                            <hr>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text"><i class='bx bx-package'></i>
+                              <span>Stock 9</span> <br>
+                              <i class='bx bx-table'></i>
+                              <span>Laptop</span>
+                            </p>
+                            <hr>
+                            <a href="#" class="btn btn-outline-success  bx bx-cart"></i></a> <br> <br>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    <!-- All last-->
+
+    <!-- footer -->
+    <footer class="pt-5">
+      <div class="container-fluid bg-info">
+        <p class="text-center text-dark fw-bold p-3">
+          Copyright bg &copy;Diry ollshop
+        </p>
+      </div>
+    </footer>
+    <!-- last footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
